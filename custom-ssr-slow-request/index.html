@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <!--ssr-meta-->
+    <script id="server_state" type="application/json">
+      {{SSR_STATE}}
+    </script>
+    <script type="module" src="/src/entry-client.tsx"></script>
+  </head>
+  <body>
+    <div id="root"><!--ssr-outlet--></div>
+  </body>
+</html>
